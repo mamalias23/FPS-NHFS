@@ -8,7 +8,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="input-group">
-					    	<input type="text" placeholder="Search" class="form-control">
+					    	<input type="text" placeholder="Search" class="form-control has-radius-left">
 					    	<span class="input-group-btn">
 					    		<a class="btn btn-light-orange" href="#">
 								  <i class="fa fa-search"></i>
@@ -19,7 +19,7 @@
 				</div>
 				<div class="row" style="margin-top:35px">
 					<div class="col-md-12">
-						<a class="btn btn-lg btn-orange" href="#" style="width:100%">Request a callback</a><br />
+						<a class="btn btn-lg btn-orange has-radius" href="#" style="width:100%">Request a callback</a><br />
 						<span id="call">or call FREE on <span class="orange"><strong>01872 263 660</strong></span></span>
 					</div>
 				</div>
@@ -64,7 +64,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-4" style="text-align:center">
-				<a class="btn btn-lg btn-orange" href="#" style="width:75%">Request a callback</a>
+				<a class="btn btn-lg btn-orange has-radius" href="#" style="width:75%">Request a callback</a>
 			</div>
 		</div>
 	</section>
