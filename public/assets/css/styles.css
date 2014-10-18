@@ -2,11 +2,16 @@
 	font-family: FrutigerLTStd-Light;
 	src: url("fonts/FrutigerLTStd-Light.otf") format("opentype");
 }
+
+@font-face{ 
+    font-family: FrutigerLTStd-Light-IE; src: url('frutigerltstd-light-webfont.eot'); 
+}
+
 * {
 	-webkit-border-radius: 0 !important;
 	 -moz-border-radius: 0 !important;
 	border-radius: 0 !important;
-	font-family: 'FrutigerLTStd-Light';
+	font-family: FrutigerLTStd-Light, FrutigerLTStd-Light-IE, Arial, Helvetica, sans-serif;
 	outline: none;
 }
 
