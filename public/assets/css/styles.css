@@ -1,0 +1,377 @@
+@font-face {
+	font-family: FrutigerLTStd-Light;
+	src: url("fonts/FrutigerLTStd-Light.otf") format("opentype");
+}
+* {
+	-webkit-border-radius: 0 !important;
+	 -moz-border-radius: 0 !important;
+	border-radius: 0 !important;
+	font-family: 'FrutigerLTStd-Light';
+	outline: none;
+}
+
+body {
+	background: #f2f3f4;
+}
+
+.container {
+	padding-top:20px;
+	background: #fff;
+}
+
+section#navigation {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+/*buttons*/
+
+/*orange*/
+.btn-orange { 
+  color: #FFFFFF; 
+  background-color: #EA5B2E; 
+  border-color: #DD4A22; 
+} 
+ 
+.btn-orange:hover, 
+.btn-orange:focus, 
+.btn-orange:active, 
+.btn-orange.active, 
+.open .dropdown-toggle.btn-orange { 
+  color: #FFFFFF; 
+  background-color: #DD4A22; 
+  border-color: #DD4A22; 
+} 
+ 
+.btn-orange:active, 
+.btn-orange.active, 
+.open .dropdown-toggle.btn-orange { 
+  background-image: none; 
+} 
+ 
+.btn-orange.disabled, 
+.btn-orange[disabled], 
+fieldset[disabled] .btn-orange, 
+.btn-orange.disabled:hover, 
+.btn-orange[disabled]:hover, 
+fieldset[disabled] .btn-orange:hover, 
+.btn-orange.disabled:focus, 
+.btn-orange[disabled]:focus, 
+fieldset[disabled] .btn-orange:focus, 
+.btn-orange.disabled:active, 
+.btn-orange[disabled]:active, 
+fieldset[disabled] .btn-orange:active, 
+.btn-orange.disabled.active, 
+.btn-orange[disabled].active, 
+fieldset[disabled] .btn-orange.active { 
+  background-color: #EA5B2E; 
+  border-color: #DD4A22; 
+} 
+ 
+.btn-orange .badge { 
+  color: #EA5B2E; 
+  background-color: #FFFFFF; 
+}
+
+/*end orange button*/
+
+/*light orange*/
+.btn-light-orange { 
+  color: #FFFFFF; 
+  background-color: #F39400; 
+  border-color: #DD7E00; 
+} 
+ 
+.btn-light-orange:hover, 
+.btn-light-orange:focus, 
+.btn-light-orange:active, 
+.btn-light-orange.active, 
+.open .dropdown-toggle.btn-light-orange { 
+  color: #FFFFFF; 
+  background-color: #dd7e00; 
+  border-color: #DD7E00; 
+} 
+ 
+.btn-light-orange:active, 
+.btn-light-orange.active, 
+.open .dropdown-toggle.btn-light-orange { 
+  background-image: none; 
+} 
+ 
+.btn-light-orange.disabled, 
+.btn-light-orange[disabled], 
+fieldset[disabled] .btn-light-orange, 
+.btn-light-orange.disabled:hover, 
+.btn-light-orange[disabled]:hover, 
+fieldset[disabled] .btn-light-orange:hover, 
+.btn-light-orange.disabled:focus, 
+.btn-light-orange[disabled]:focus, 
+fieldset[disabled] .btn-light-orange:focus, 
+.btn-light-orange.disabled:active, 
+.btn-light-orange[disabled]:active, 
+fieldset[disabled] .btn-light-orange:active, 
+.btn-light-orange.disabled.active, 
+.btn-light-orange[disabled].active, 
+fieldset[disabled] .btn-light-orange.active { 
+  background-color: #F39400; 
+  border-color: #DD7E00; 
+} 
+ 
+.btn-light-orange .badge { 
+  color: #F39400; 
+  background-color: #FFFFFF; 
+}
+
+/*end light orange button */
+
+
+span.orange {
+	color:#EA5B2E;
+}
+
+section#main span#call {
+	margin-top: 5px;
+	display: block;
+}
+
+/*nav inverse*/
+.navbar-inverse { background-color: #A29F9D}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #8C8C8C}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #8C8C8C}
+.dropdown-menu { background-color: #8C8C8C}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #A29F9D}
+.navbar-inverse { background-image: none; }
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; }
+.navbar-inverse { border-color: #A29F9D}
+.navbar-inverse .navbar-brand { color: #FFFFFF}
+.navbar-inverse .navbar-brand:hover { color: #545454}
+.navbar-inverse .navbar-nav>li>a { color: #FFFFFF}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #FFFFFF}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a, 
+.navbar-inverse .navbar-nav>.open>a:hover, 
+.navbar-inverse .navbar-nav>.open>a:focus { color: #ffffff; background: #8C8C8C !important; }
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #FFFFFF}
+.dropdown-menu>li>a { color: #545454}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}
+
+.navbar-inverse .container-fluid {
+	padding-left:0px;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+	background: #686868;
+	border: 0px;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border-color: #707070;
+}
+
+.navbar-inverse .navbar-toggle {
+	background: #8C8C8C;
+	border: 0px;
+}
+
+/*end navbar inverse*/
+
+/*banner*/
+section#banner {
+	height:430px;
+	background-image: url('../img/banner.jpg');
+	background-size: 100% 100%;
+	color:#fff;
+	padding:15px;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+section#banner .texts {
+	text-shadow: 1px 2px #565656;
+}
+
+header {
+	margin-bottom: 10px;
+}
+
+div.panel-main > div.panel-heading {
+	background: #ffcf22 !important;
+	color:#3c3835;
+}
+
+div.panel-custom > div.panel-heading {
+	background: #f39400 !important;
+	color:#fff;
+	font-size: 20px;
+}
+div.panel-red {
+	height:441px;
+	background: #f2f3f4 !important;
+}
+div.panel-red > div.panel-heading {
+	background: #ea5b2e !important;
+	color:#fff;
+	font-size: 18px;
+	text-align: center;
+}
+
+div.panel-red > div.panel-body {
+	text-align: justify;
+
+}
+
+div.panel-main > div.panel-heading > span.large {
+	font-size: 40px;
+	font-weight: bold;
+	margin-right: 50px;
+}
+
+div.panel-main > div.panel-heading > span.medium {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+div.panel-main > div.panel-heading > span.small {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.form-horizontal .control-label {
+	text-align: left;
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #f39400;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	box-shadow: inset 0 0px 0px rgba(0,0,0,0.075);
+	-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.form-control:focus{
+    border-color: #cccccc;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.list-group {
+	box-shadow: none;
+}
+.list-group-item {
+	border: 0px;
+}
+
+.list-group-item-text {
+	border: 0px;
+	border-bottom: 1px dashed #a8a8a8; 
+}
+
+a.list-group-item .list-group-item-heading {
+	color:#ea5b2e;
+}
+
+a, .readmore {
+	color:#ea5b2e;
+}
+
+a:hover, .readmore:hover {
+	text-decoration: underline;
+}
+
+/*footer*/
+
+footer {
+	background: #a29f9d;
+	color:#3c3835;
+	padding:15px;
+	font-weight: bold;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+footer a {
+	color:#ffffff;
+	font-weight: normal;
+}
+
+footer a:hover {
+	color:#ffffff;
+	text-decoration: underline;
+}
+
+footer .list-group {
+	margin: 0px;
+}
+
+footer .list-group-item {
+	padding:5px 0px;
+	background-color: #a29f9d;
+}
+
+footer .navigation {
+	border-left:2px solid #c1c1c1;
+}
+
+footer a.social {
+	color:#3c3835;
+}
+
+footer a.social:hover {
+	color:#d8d8d8;
+}
+
+
+@media(max-width:767px) {
+
+	section#main {
+		text-align: center;
+	}
+
+	section#main span#call {
+		margin-top: 15px;
+		display: block;
+	}
+
+	section#navigation {
+		margin-top: 15px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.navbar-inverse .container-fluid {
+		padding-left:15px;
+	}
+	.navbar-nav {
+		margin-left: 0px;
+	}
+
+	div.panel-main > div.panel-heading > span.large {
+		font-size: 30px;
+		margin-right: 0px;
+	}
+
+	div.panel-main > div.panel-heading > span.medium {
+		font-size: 25px;
+		margin: 0px;
+	}
+
+	div.panel-main > div.panel-heading > span.small {
+		font-size: 15px;
+		display: block;
+	}
+}
