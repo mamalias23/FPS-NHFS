@@ -2,7 +2,7 @@
 	<section id="main">
 		<div class="row">
 			<div class="col-md-9">
-				<img src="{{ asset('assets/img/logo.jpg') }}" height="170px">
+				<img src="{{ asset('assets/img/logo_small.jpg') }}" height="170px">
 			</div>
 			<div class="col-md-3">
 				<div class="row">
