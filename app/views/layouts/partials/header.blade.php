@@ -42,12 +42,12 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9" style="padding-left:0px">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="#">Home</a></li>
-						<li><a href="{{ url('debt-management') }}">Debt Management</a></li>
-						<li><a href="#">Trust Deeds</a></li>
-						<li><a href="#">Individual Voluntary Arrangements</a></li>
-						<li><a href="#">Debt Arrangement Schemes</a></li>
-						<li><a href="#">Full & Finals</a></li>
+						<li class="{{\Request::is('/') ? 'active':''}}"><a href="#">Home</a></li>
+						<li class="{{\Request::is('debt-management*') ? 'active':''}}"><a href="{{ url('debt-management') }}">Debt Management</a></li>
+						<li class="{{\Request::is('trust-deeds*') ? 'active':''}}"><a href="{{ url('trust-deeds') }}">Trust Deeds</a></li>
+						<li class="{{\Request::is('individual-voluntary-arrangements*') ? 'active':''}}"><a href="href="{{ url('individual-voluntary-arrangements') }}"">Individual Voluntary Arrangements</a></li>
+						<li class="{{\Request::is('debt-arrangement-schemes*') ? 'active':''}}"><a href="href="{{ url('debt-arrangement-schemes') }}"">Debt Arrangement Schemes</a></li>
+						<li class="{{\Request::is('full-finals*') ? 'active':''}}"><a href="href="{{ url('full-finals') }}"">Full & Finals</a></li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
