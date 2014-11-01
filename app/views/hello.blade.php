@@ -88,23 +88,19 @@
 						<div class="panel-body" style="padding:0px;">
 							<div class="list-group">
 								<a href="#" class="list-group-item">
-									<h4 class="list-group-item-heading">Ben Love, hampshire.</h4>
+									<h4 class="list-group-item-heading">Wonga to write off £220m of customer debts</h4>
 									<p class="list-group-item-text">
-										New Horizon Financial solutions really helped make the whole process a smooth one...<br />
-										<span class="readmore">Read more >>></span>
-									</p>
-								</a>
-								<a href="#" class="list-group-item">
-									<h4 class="list-group-item-heading">Ben Love, hampshire.</h4>
-									<p class="list-group-item-text">
-										New Horizon Financial solutions really helped make the whole process a smooth one...<br />
-										<span class="readmore">Read more >>></span>
-									</p>
-								</a>
-								<a href="#" class="list-group-item">
-									<h4 class="list-group-item-heading">Ben Love, hampshire.</h4>
-									<p class="list-group-item-text">
-										New Horizon Financial solutions really helped make the whole process a smooth one...<br />
+										Wonga has been speaking to the Financial Conduct Authority (FCA) about its lending practices<br><br>
+
+Payday lender Wonga says it is writing off £220m of debts for 330,000 customers after putting in place new affordability checks.<br><br>
+
+The company, which has faced criticism for its high interest rates and debt collection tactics, made the changes after discussions with regulators.<br><br>
+
+Customers in arrears whose loans would not have been made under the new checks will have their debts written off.<br><br>
+
+A further 45,000 customers in arrears will not have to pay interest on loans.
+
+Affected Wonga customers will be notified by 10 October<br />
 										<span class="readmore">Read more >>></span>
 									</p>
 								</a>
@@ -113,7 +109,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
+			<!-- <div class="row">
 				<div class="col-md-12">
 					<div class="panel panel-default panel-custom">
 						<div class="panel-heading">Sign up for our newsletter</div>
@@ -122,7 +118,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 

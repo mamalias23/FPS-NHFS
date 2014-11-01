@@ -27,7 +27,7 @@
 		</div>
 	</section>
 	<section id="navigation">
-		<nav class="navbar navbar-inverse" role="navigation" style="margin-bottom:10px">
+		<nav class="navbar navbar-inverse" role="navigation" style="margin-bottom:0px">
 			<div class="container-fluid">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
