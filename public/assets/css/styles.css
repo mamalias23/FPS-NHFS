@@ -12,6 +12,21 @@
 	outline: none;
 }
 
+.bs-callout {
+	padding: 20px;
+	margin: 20px 0;
+	border: 1px solid #eee;
+	border-left-width: 5px;
+	border-radius: 3px;
+}
+
+.bs-callout-info {
+	border-left-color: #5bc0de;
+}
+.bs-callout-danger {
+	border-left-color: #d9534f;
+}
+
 .has-radius {
 	/*border-radius: 7px !important;
 	-webkit-border-radius: 7px !important;

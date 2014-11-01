@@ -12,6 +12,24 @@
 	</script>
 @stop
 
+@section('banner')
+<section id="banner">
+	<div class="row">
+		<div class="col-md-6 texts">
+			<h2>Here at NHFS finding the right</h2>
+			<h3 style="margin-top:0px;margin-bottom:30px">solution is our specialty.</h3>
+			<h3 style="margin-bottom:30px">We have a range of solutions <br />to offer to help change your<br /> situation for the better.</h3>
+			<h3 style="margin-bottom:30px">Call us on 01872 263 660<br /> or request a call back.</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4" style="text-align:center">
+			<a class="btn btn-lg btn-orange has-radius" href="#" style="width:75%">Request a callback</a>
+		</div>
+	</div>
+</section>
+@stop
+
 @section('content')
 
 	<div class="row">

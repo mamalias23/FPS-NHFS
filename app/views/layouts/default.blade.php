@@ -13,7 +13,6 @@
 <body>
 	<div class="container">
 		@include('layouts.partials.header')
-
 		<content>
 			@yield('content')
 		</content>
