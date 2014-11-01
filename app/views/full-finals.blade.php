@@ -20,6 +20,10 @@
 	<div class="row">
 		<div class="col-md-12">
 			<h1 class="page-header">Full Finals</h1>
+
+			<div class="bs-callout bs-callout-danger">
+				Page under construction.
+			</div>
 		</div>
 	</div>
 

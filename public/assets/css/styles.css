@@ -385,12 +385,13 @@ footer .foot {
 }
 
 ul.custom li:before {
-  content: "\f046";
+  content: "\f058";
   display: inline-block;
   font:normal normal normal 14px/1 FontAwesome;
-  margin-left: -1.3em;
-  width: 1.3em;
-  color:green;
+  margin-left: -1em;
+  width: 1em;
+  font-size: 25px;
+  color:#8C8C8C;
 }
 ul.custom li {
 	font-size: 15px;
