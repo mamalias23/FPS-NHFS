@@ -3,24 +3,6 @@
 @section('on-page-style')
 @parent
 	<style type="text/css">
-		ul.custom li:before {
-		  content: "\f046";
-		  display: inline-block;
-		  font:normal normal normal 14px/1 FontAwesome;
-		  margin-left: -1.3em;
-		  width: 1.3em;
-		  color:green;
-		}
-		ul.custom li {
-			font-size: 15px;
-		}
-		.fa-check-square-o {
-			color:green;
-		}
-
-		p {
-			text-align: justify;
-		}
 	</style>
 @stop
 
