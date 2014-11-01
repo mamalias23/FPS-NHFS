@@ -45,9 +45,9 @@
 						<li class="{{\Request::is('/') ? 'active':''}}"><a href="{{ url('/') }}">Home</a></li>
 						<li class="{{\Request::is('debt-management*') ? 'active':''}}"><a href="{{ url('debt-management') }}">Debt Management</a></li>
 						<li class="{{\Request::is('trust-deeds*') ? 'active':''}}"><a href="{{ url('trust-deeds') }}">Trust Deeds</a></li>
-						<li class="{{\Request::is('individual-voluntary-arrangements*') ? 'active':''}}"><a href="href="{{ url('individual-voluntary-arrangements') }}"">Individual Voluntary Arrangements</a></li>
-						<li class="{{\Request::is('debt-arrangement-schemes*') ? 'active':''}}"><a href="href="{{ url('debt-arrangement-schemes') }}"">Debt Arrangement Schemes</a></li>
-						<li class="{{\Request::is('full-finals*') ? 'active':''}}"><a href="href="{{ url('full-finals') }}"">Full & Finals</a></li>
+						<li class="{{\Request::is('individual-voluntary-arrangements*') ? 'active':''}}"><a href="{{ url('individual-voluntary-arrangements') }}">Individual Voluntary Arrangements</a></li>
+						<li class="{{\Request::is('debt-arrangement-schemes*') ? 'active':''}}"><a href="{{ url('debt-arrangement-schemes') }}">Debt Arrangement Schemes</a></li>
+						<li class="{{\Request::is('full-finals*') ? 'active':''}}"><a href="{{ url('full-finals') }}">Full & Finals</a></li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
