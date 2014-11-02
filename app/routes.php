@@ -40,3 +40,8 @@ Route::get('full-finals', function()
 {
 	return View::make('full-finals');
 });
+
+Route::get('budgeting-tool', function()
+{
+	return View::make('budgeting-tool');
+});

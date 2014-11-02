@@ -48,6 +48,7 @@
 						<li class="{{\Request::is('individual-voluntary-arrangements*') ? 'active':''}}"><a href="{{ url('individual-voluntary-arrangements') }}">Individual Voluntary Arrangements</a></li>
 						<li class="{{\Request::is('debt-arrangement-schemes*') ? 'active':''}}"><a href="{{ url('debt-arrangement-schemes') }}">Debt Arrangement Schemes</a></li>
 						<li class="{{\Request::is('full-finals*') ? 'active':''}}"><a href="{{ url('full-finals') }}">Full & Finals</a></li>
+						<li class="{{\Request::is('budgeting-tool*') ? 'active':''}}"><a href="{{ url('budgeting-tool') }}">Budgeting Tool</a></li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
