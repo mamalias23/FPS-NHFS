@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>NHFS</title>
+	<title>@yield('title','Home | New Horizon Financial Solutions')</title>
 	@include('layouts.partials.styles')
 
 	@section('on-page-style')

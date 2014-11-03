@@ -1,5 +1,7 @@
 @extends('layouts.default')
-
+@section('title')
+Debt Arrangement Scheme | New Horizon Financial Solutions
+@stop
 @section('on-page-style')
 @parent
 	<style type="text/css">
