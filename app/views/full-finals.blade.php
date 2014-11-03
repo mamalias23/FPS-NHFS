@@ -44,7 +44,7 @@ Full and Finals | New Horizon Financial Solutions
 				repayment methods they are more likely to accept.   
 			</p>
 
-			<h4>Full & Final Settlements – things to consider:</h4>
+			<h3>Full & Final Settlements – things to consider:</h3>
 			<ul class="custom">
 				<li>If you come into a lump sum of money, you may wish to put this toward part 
 					payment of your debts. If your creditors agree to this single payment in return for 

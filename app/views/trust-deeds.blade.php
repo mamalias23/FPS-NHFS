@@ -38,9 +38,7 @@ Trust Deeds | New Horizon Financial Solutions
 				resort, or an alternative to bankruptcy, when personal debt problems have become very 
 				serious.
 			</p>
-			<p>
-				Advantages of a Trust Deed:
-			</p>
+			<h3>Advantages of a Trust Deed:</h3>
 			<ul class="custom">
 				<li>All Interest & Charges on the debts owed will be frozen from the date the Trust Deed is signed.</li>
 				<li>As soon as the Trust Deed is given the protected status no further action can be taken by the creditors. I.E. CCJ’s</li>
@@ -48,9 +46,7 @@ Trust Deeds | New Horizon Financial Solutions
 				<li>After paying the Trust Deed for the term agreed (usually 48 months) any remaining debt will be written off. </li>
 			</ul>
 
-			<p>
-				Potential Disadvantages of a Trust Deed:
-			</p>
+			<h3>Potential Disadvantages of a Trust Deed:</h3>
 			<ul class="custom">
 				<li>
 					If it is possible to obtain an increased mortgage during a trust deed, homeowners 
