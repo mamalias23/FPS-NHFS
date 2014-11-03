@@ -12,12 +12,13 @@
 		<div class="col-md-4 navigation">
 			Quick links
 			<ul class="list-group">
-				<li class="list-group-item"><a href="#">Home</a></li>
-				<li class="list-group-item"><a href="#">Debt Management</a></li>
-				<li class="list-group-item"><a href="#">Trust Deeds</a></li>
-				<li class="list-group-item"><a href="#">Individual Voluntary Arrangements</a></li>
-				<li class="list-group-item"><a href="#">Debt Arrangement Schemes</a></li>
-				<li class="list-group-item"><a href="#">Full & Finals</a></li>
+				<li class="list-group-item"><a href="{{ url('/') }}">Home</a></li>
+				<li class="list-group-item"><a href="{{ url('debt-management') }}">Debt Management</a></li>
+				<li class="list-group-item"><a href="{{ url('trust-deeds') }}">Trust Deeds</a></li>
+				<li class="list-group-item"><a href="{{ url('individual-voluntary-arrangements') }}">Individual Voluntary Arrangements</a></li>
+				<li class="list-group-item"><a href="{{ url('debt-arrangement-schemes') }}">Debt Arrangement Schemes</a></li>
+				<li class="list-group-item"><a href="{{ url('full-finals') }}">Full & Finals</a></li>
+				<li class="list-group-item"><a href="{{ url('budgeting-tool') }}">Budgeting Tool</a></li>
 			</ul>
 		</div>
 		<div class="col-md-4">
