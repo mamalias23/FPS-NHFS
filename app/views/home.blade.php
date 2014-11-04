@@ -7,6 +7,18 @@ Home | New Horizon Financial Solutions
 @section('on-page-style')
 @parent
 	<style type="text/css">
+	.item{
+	    background: #EA5B2E;
+	    height: 430px !important;
+	    padding-left:15px;
+	}
+	.carousel{
+	    margin-left: -15px;
+	    margin-right: -15px;
+	}
+	.carousel p {
+		text-align: center;
+	}
 	</style>
 @stop
 
@@ -17,7 +29,7 @@ Home | New Horizon Financial Solutions
 @stop
 
 @section('banner')
-<section id="banner">
+<!-- <section id="banner">
 	<div class="row">
 		<div class="col-md-6 texts">
 			<h2>Here at NHFS finding the right</h2>
@@ -31,7 +43,65 @@ Home | New Horizon Financial Solutions
 			<a class="btn btn-lg btn-orange has-radius" href="#" style="width:75%">Request a callback</a>
 		</div>
 	</div>
-</section>
+</section> -->
+
+<div class="bs-example">
+    <div id="myCarousel" class="carousel slide" data-interval="7000" data-ride="carousel">
+    	<!-- Carousel indicators -->
+        <!-- <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>  -->  
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+            <div class="active item">
+                <section id="banner">
+					<div class="row">
+						<div class="col-md-6 texts" style="margin-left:25px">
+							<h2>Here at NHFS finding the right</h2>
+							<h3 style="margin-top:0px;margin-bottom:30px">solution is our specialty.</h3>
+							<h3 style="margin-bottom:30px">We have a range of solutions <br />to offer to help change your<br /> situation for the better.</h3>
+							<h3 style="margin-bottom:30px">Call us on 01872 263 660<br /> or request a call back.</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4" style="text-align:center">
+							<a class="btn btn-lg btn-orange has-radius" href="#" style="width:75%">Request a callback</a>
+						</div>
+					</div>
+				</section>
+         		<div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <section id="banner2">
+					<div class="row">
+						<div class="col-md-6 texts" style="margin-left:25px">
+							<h2>New Horizon Financial Solutions Budgeting Tool</h2>
+							<h3 style="margin-top:0px;margin-bottom:30px">Our Budgeting Tool has been<br>designed to help you create an <br>accurate budget and plan, which <br>we believe is the first and most <br>important step to regaining <br>control of your finances.</h3>
+			
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4" style="text-align:center">
+							<a class="btn btn-lg btn-orange has-radius" href="{{ url('budgeting-tool') }}" style="width:75%">Try our budgeting tool</a>
+						</div>
+					</div>
+				</section>
+         		<div class="carousel-caption">
+                </div>
+            </div>
+        </div>
+        <!-- Carousel nav -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev" style="width:40px;background:none">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next" style="width:40px;background:none">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</div>
+
 @stop
 
 @section('content')
