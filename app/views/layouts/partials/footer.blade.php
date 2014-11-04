@@ -24,7 +24,7 @@
 		<div class="col-md-4">
 			<ul class="list-group" style="margin-top:15px;">
 				<li class="list-group-item"><a href="#">Contact us</a></li>
-				<li class="list-group-item"><a href="#">Terms and Conditions</a></li>
+				<li class="list-group-item"><a href="{{ url('terms-and-conditions') }}">Terms and Conditions</a></li>
 				<li class="list-group-item"><a href="#">Site map</a></li>
 			</ul>
 

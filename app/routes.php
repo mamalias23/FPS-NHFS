@@ -45,3 +45,8 @@ Route::get('budgeting-tool', function()
 {
 	return View::make('budgeting-tool');
 });
+
+Route::get('terms-and-conditions', function()
+{
+	return View::make('terms-and-conditions');
+});
