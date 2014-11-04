@@ -231,7 +231,7 @@ section#banner2 {
 	margin-right: -15px;
 }
 
-section#banner .texts {
+section#banner .texts, section#banner2 .texts {
 	text-shadow: 1px 2px #565656;
 }
 
